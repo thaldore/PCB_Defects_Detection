@@ -1,6 +1,6 @@
 ## 📁 Project Files
 
-🔗 **Download ZIP File**: [Google Drive - PCB Defect Detection Project](https://drive.google.com/your-project-zip-link)
+🔗 **Download ZIP File**: [Google Drive - PCB Defect Detection Project](https://drive.google.com/file/d/1P_JwdkPnuqlascJxQBvSUd1xIRfQIf_h/view?usp=drive_link)
 
 ---
 
@@ -26,9 +26,17 @@ This project focuses on detecting **6 different types of defects** on Printed Ci
 
 ---
 
+## 🖼️ Example Output
+
+*Sample defect detection result on a PCB image.*
+
+![PCB Defect Detection Screenshot](https://drive.google.com/uc?export=view&id=18olIMgqBGFysy_Fw25QFrytysOWaL-68)
+
+---
+
 ## 📁 Proje Dosyası
 
-🔗 **ZIP Dosyasını İndir**: [Google Drive - PCB Hata Tespiti Projesi](https://drive.google.com/your-project-zip-link)
+🔗 **ZIP Dosyasını İndir**: [Google Drive - PCB Hata Tespiti Projesi](https://drive.google.com/file/d/1P_JwdkPnuqlascJxQBvSUd1xIRfQIf_h/view?usp=drive_link)
 
 ---
 
@@ -51,3 +59,11 @@ Bu projede, **Baskılı Devre Kartı (PCB)** üzerinde oluşabilecek **6 farklı
   - Short (Kısa Devre)  
   - Spur (Çıkıntı)  
   - Spurious Copper (Yanlış Bakır İz)
+
+---
+
+## 🖼️ Örnek Çıktı
+
+*Örnek bir PCB görüntüsü üzerinde hata tespiti sonucu.*
+
+![PCB Hata Tespiti Görseli](https://drive.google.com/uc?export=view&id=18olIMgqBGFysy_Fw25QFrytysOWaL-68)
