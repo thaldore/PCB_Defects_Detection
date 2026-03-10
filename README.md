@@ -1,69 +1,89 @@
-## 📁 Project Files
+# 🛠️ PCB Defect Detection — Baskılı Devre Kartı Hata Tespiti
 
-🔗 **Download ZIP File**: [Google Drive - PCB Defect Detection Project](https://drive.google.com/file/d/1P_JwdkPnuqlascJxQBvSUd1xIRfQIf_h/view?usp=drive_link)
+> **Deep learning-powered defect detection for Printed Circuit Boards (PCBs) using YOLOv8n & YOLOv10n.**
+>
+> **YOLOv8n ve YOLOv10n modelleriyle Baskılı Devre Kartlarında (PCB) derin öğrenme tabanlı hata tespiti.**
 
 ---
 
-## 🔍 Project Overview
+## 🌐 English
 
-This project focuses on detecting **6 different types of defects** on Printed Circuit Boards (PCBs) using deep learning-based object detection techniques. We utilized both **YOLOv8n** and **YOLOv10n** models to train and evaluate performance on a specialized dataset.
+### 🔍 Project Overview
 
-### 🎯 Objective
+This project automates quality control in PCB manufacturing by detecting **6 distinct defect types** using state-of-the-art deep learning object detection. Both **YOLOv8n** and **YOLOv10n** models were trained and benchmarked on a specialized PCB defect dataset.
 
-- Automate quality control in PCB manufacturing processes.
-- Accurately classify and localize different defect types using image processing and AI.
+### 🎯 Key Objectives
+
+| Goal | Description |
+|------|-------------|
+| 🤖 Automation | Replace manual inspection with AI-driven quality control |
+| 🔬 Precision | Accurately classify and localize defects in PCB images |
+| ⚡ Efficiency | Compare performance across two lightweight YOLO architectures |
 
 ### 📊 Dataset
 
-- Source: [Kaggle - PCB Defects Dataset](https://www.kaggle.com/datasets/akhatova/pcb-defects)
-- The dataset includes 6 defect classes:
-  - Missing Hole  
-  - Mouse Bite  
-  - Open Circuit  
-  - Short  
-  - Spur  
-  - Spurious Copper
+- **Source:** [Kaggle — PCB Defects Dataset](https://www.kaggle.com/datasets/akhatova/pcb-defects)
+- **Defect Classes (6):**
 
----
+  | # | Defect Type |
+  |---|-------------|
+  | 1 | Missing Hole |
+  | 2 | Mouse Bite |
+  | 3 | Open Circuit |
+  | 4 | Short |
+  | 5 | Spur |
+  | 6 | Spurious Copper |
 
-## 🖼️ Example Output
+### 📦 Project Files
 
-*Sample defect detection result on a PCB image.*
+> Download the full project (models, notebooks, and results):
+>
+> 🔗 [Google Drive — PCB Defect Detection Project](https://drive.google.com/file/d/1P_JwdkPnuqlascJxQBvSUd1xIRfQIf_h/view?usp=drive_link)
+
+### 🖼️ Example Output
+
+*Sample defect detection result on a PCB image:*
 
 ![PCB Defect Detection Screenshot](https://drive.google.com/uc?export=view&id=18olIMgqBGFysy_Fw25QFrytysOWaL-68)
 
 ---
 
-## 📁 Proje Dosyası
+## 🇹🇷 Türkçe
 
-🔗 **ZIP Dosyasını İndir**: [Google Drive - PCB Hata Tespiti Projesi](https://drive.google.com/file/d/1P_JwdkPnuqlascJxQBvSUd1xIRfQIf_h/view?usp=drive_link)
+### 🔍 Proje Özeti
 
----
+Bu proje, **Baskılı Devre Kartı (PCB)** üretiminde kalite kontrolünü otomatikleştirmeyi hedeflemektedir. **6 farklı hata türü**, derin öğrenme tabanlı nesne tanıma teknikleriyle tespit edilmektedir. **YOLOv8n** ve **YOLOv10n** modelleri özel bir veri seti üzerinde eğitilmiş ve karşılaştırmalı olarak değerlendirilmiştir.
 
-## 🔍 Proje Özeti
+### 🎯 Temel Hedefler
 
-Bu projede, **Baskılı Devre Kartı (PCB)** üzerinde oluşabilecek **6 farklı hata türünü** tespit etmek amacıyla derin öğrenme tabanlı nesne tanıma teknikleri kullanılmıştır. Hem **YOLOv8n** hem de **YOLOv10n** modelleri ile eğitim yapılmış ve performansları karşılaştırılmıştır.
-
-### 🎯 Amaç
-
-- PCB üretiminde kalite kontrol süreçlerini otomatik hale getirmek.
-- Görüntü işleme ve yapay zeka ile hata türlerini doğru şekilde sınıflandırmak ve konumlandırmak.
+| Hedef | Açıklama |
+|-------|----------|
+| 🤖 Otomasyon | Manuel denetimi yapay zeka destekli kalite kontrolüyle değiştirmek |
+| 🔬 Hassasiyet | PCB görüntülerindeki hataları doğru şekilde sınıflandırmak ve konumlandırmak |
+| ⚡ Verimlilik | İki hafif YOLO mimarisinin performansını karşılaştırmak |
 
 ### 📊 Kullanılan Veri Seti
 
-- Kaynak: [Kaggle - PCB Defects Dataset](https://www.kaggle.com/datasets/akhatova/pcb-defects)
-- Veri setinde yer alan 6 hata türü:
-  - Missing Hole (Eksik Delik)  
-  - Mouse Bite (Fare Isırığı)  
-  - Open Circuit (Açık Devre)  
-  - Short (Kısa Devre)  
-  - Spur (Çıkıntı)  
-  - Spurious Copper (Yanlış Bakır İz)
+- **Kaynak:** [Kaggle — PCB Defects Dataset](https://www.kaggle.com/datasets/akhatova/pcb-defects)
+- **Hata Sınıfları (6 adet):**
 
----
+  | # | Hata Türü (TR) | Defect Name (EN) |
+  |---|----------------|-----------------|
+  | 1 | Eksik Delik | Missing Hole |
+  | 2 | Fare Isırığı | Mouse Bite |
+  | 3 | Açık Devre | Open Circuit |
+  | 4 | Kısa Devre | Short |
+  | 5 | Çıkıntı | Spur |
+  | 6 | Yanlış Bakır İz | Spurious Copper |
 
-## 🖼️ Örnek Çıktı
+### 📦 Proje Dosyası
 
-*Örnek bir PCB görüntüsü üzerinde hata tespiti sonucu.*
+> Projeyi indirmek için (modeller, notebook'lar ve sonuçlar dahil):
+>
+> 🔗 [Google Drive — PCB Hata Tespiti Projesi](https://drive.google.com/file/d/1P_JwdkPnuqlascJxQBvSUd1xIRfQIf_h/view?usp=drive_link)
+
+### 🖼️ Örnek Çıktı
+
+*Örnek bir PCB görüntüsü üzerinde hata tespiti sonucu:*
 
 ![PCB Hata Tespiti Görseli](https://drive.google.com/uc?export=view&id=18olIMgqBGFysy_Fw25QFrytysOWaL-68)
